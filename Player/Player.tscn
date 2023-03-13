@@ -1,0 +1,47 @@
+[gd_scene load_steps=6 format=3 uid="uid://i6asbp64vpix"]
+
+[ext_resource type="Texture2D" uid="uid://by2o1x60uydqv" path="res://assets/pistol.png" id="1_q5nc8"]
+[ext_resource type="Texture2D" uid="uid://d0kndrndqbj3b" path="res://assets/smg.png" id="2_d3hwg"]
+[ext_resource type="Script" path="res://Player/Player.gd" id="3_s8f4a"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_fet36"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_q5nc8")
+}],
+"loop": true,
+"name": &"pistol",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_d3hwg")
+}],
+"loop": true,
+"name": &"smg",
+"speed": 5.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_qtacg"]
+size = Vector2(39, 48)
+
+[node name="Player" type="Area2D" groups=["Player"]]
+collision_mask = 10
+script = ExtResource("3_s8f4a")
+
+[node name="AnimatedSprite" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_fet36")
+animation = &"pistol"
+frame_progress = 0.381735
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-3.5, 0)
+shape = SubResource("RectangleShape2D_qtacg")
+
+[node name="BulletPosition" type="Marker2D" parent="."]
+position = Vector2(5, 0)
+
+[node name="Firerate" type="Timer" parent="."]
+wait_time = 0.1
+one_shot = true

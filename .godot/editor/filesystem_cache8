@@ -1,0 +1,17 @@
+2a60927148abd1d33b818b535e306557
+::res://::1678709566
+Game.tscn::PackedScene::7960527958656140905::1678709559::0::1::::<><>::uid://cnsaw86on26a6<>uid://i6asbp64vpix
+icon.svg::CompressedTexture2D::5444948304826982415::1678706350::1678706354::1::::<><>::
+::res://assets/::1678709596
+pistol.png::CompressedTexture2D::4127588855995299873::1452783293::1678706566::1::::<><>::
+playerbullet.png::CompressedTexture2D::2127285296442575158::1666681331::1678707825::1::::<><>::
+smg.png::CompressedTexture2D::8935422510995537413::1452783293::1678706571::1::::<><>::
+tile_01.png::CompressedTexture2D::5722496203533663811::1453206071::1678707308::1::::<><>::
+zoimbie1_hold.png::CompressedTexture2D::390806642177431179::1452783293::1678709597::1::::<><>::
+::res://Bullet/::1678709369
+Bullet.gd::GDScript::-1::1678708811::0::1::::Bullet<>Sprite2D<>::
+Bullet.tscn::PackedScene::8309322335862822818::1678709369::0::1::::<><>::uid://5kqcwg8fi71s<>res://Bullet/Bullet.gd
+::res://Player/::1678709369
+Player.gd::GDScript::-1::1678709368::0::1::::<>AnimatedSprite2D<>::
+Player.tscn::PackedScene::625538680913911547::1678709369::0::1::::<><>::uid://by2o1x60uydqv<>uid://d0kndrndqbj3b<>res://Player/Player.gd
+::res://Zombie/::1678709566
