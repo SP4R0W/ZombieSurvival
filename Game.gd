@@ -48,6 +48,8 @@ func spawn_zombie() -> void:
 
 func next_wave():
 	# make the next wave a bit harder
+	zombies_spawned = 0
+	
 	wave += 1
 	zombies_max += 5
 	$Spawn.wait_time *= 0.95

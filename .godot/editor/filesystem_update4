@@ -1,9 +1,5 @@
-res://Player/Player.tscn
-res://Player/Player.gd
 res://Game.tscn
+res://Player/Player.tscn
 res://Bullet/Bullet.tscn
-res://Bullet/Bullet.gd
 res://Zombie/Zombie.tscn
-res://Zombie/Zombie.gd
 res://Game.gd
-res://GameUI.gd
