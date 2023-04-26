@@ -9,7 +9,7 @@ Current features are:
 <ul>
   <li>Basic UI that keeps updating itself</li>
   <li>Infinite wave mechanic</li>
-  <li>Player movement and shooting/li>
+  <li>Player movement and shooting</li>
   <li>Two different weapons and Zombie "AI"</li>
 </ul>
 Being a project made to teach means there are way more comments that I'd normally put in, but maybe someone will need those so I left them in. <br>
